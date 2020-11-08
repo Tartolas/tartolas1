@@ -1,0 +1,464 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.0.5eb040c7)"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 8160,
+            "type": "VEC3",
+            "max": [
+                382.68701171875,
+                443.2539978027344,
+                896.9530029296875
+            ],
+            "min": [
+                -950.3380126953125,
+                -6.8754048347473148,
+                -896.9530029296875
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 48222,
+            "type": "SCALAR",
+            "max": [
+                8159
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 290808,
+            "uri": "result.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 97920,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 97920,
+            "byteLength": 192888,
+            "target": 34963
+        }
+    ],
+    "images": [
+        {
+            "uri": "ff16e9b84fa181a96c012d405d9b4f15/alduin.jpg"
+        },
+        {
+            "uri": "658c28db676921875414a0c17aa1b2f5/alduin_n.jpg"
+        }
+    ],
+    "materials": [
+        {
+            "name": "Physical",
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "baseColorFactor": [
+                    0.40784314274787905,
+                    0.40784314274787905,
+                    0.40784314274787905,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.998565137386322
+            },
+            "normalTexture": {
+                "index": 1
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Alduin Dragon-mesh",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 1,
+                    "attributes": {
+                        "POSITION": 0
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "children": [
+                1,
+                5,
+                12,
+                18
+            ]
+        },
+        {
+            "name": "Camera_Perspective3_$AssimpFbx$_Translation",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                532.5277099609375,
+                67.40986633300781,
+                242.1993865966797,
+                1.0
+            ],
+            "children": [
+                2
+            ]
+        },
+        {
+            "name": "Camera_Perspective3_$AssimpFbx$_Rotation",
+            "matrix": [
+                0.5761839151382446,
+                0.005979189649224281,
+                -0.8172982335090637,
+                0.0,
+                -0.09414352476596832,
+                0.9938029646873474,
+                -0.05909941345453262,
+                0.0,
+                0.8118799924850464,
+                0.11099546402692795,
+                0.5731761455535889,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "children": [
+                3
+            ]
+        },
+        {
+            "name": "Camera_Perspective3_$AssimpFbx$_PostRotation",
+            "matrix": [
+                -4.371138828673793e-8,
+                -0.0,
+                -1.0,
+                -0.0,
+                -0.0,
+                1.0,
+                -0.0,
+                -0.0,
+                1.0,
+                -0.0,
+                -4.371138828673793e-8,
+                -0.0,
+                -0.0,
+                -0.0,
+                -0.0,
+                1.0
+            ],
+            "children": [
+                4
+            ]
+        },
+        {
+            "name": "Camera_Perspective3"
+        },
+        {
+            "name": "LightPreset",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                -283.82550048828127,
+                -9.618106842041016,
+                5.537300109863281,
+                1.0
+            ],
+            "children": [
+                6,
+                10
+            ]
+        },
+        {
+            "name": "Sun Light_$AssimpFbx$_Translation",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                -3587.81201171875,
+                6278.6708984375,
+                3587.81201171875,
+                1.0
+            ],
+            "children": [
+                7
+            ]
+        },
+        {
+            "name": "Sun Light_$AssimpFbx$_Rotation",
+            "matrix": [
+                0.8632478713989258,
+                0.23931622505187989,
+                0.4444444477558136,
+                0.0,
+                0.2393162101507187,
+                0.5811966061592102,
+                -0.7777777314186096,
+                0.0,
+                -0.4444444179534912,
+                0.7777776718139648,
+                0.4444445073604584,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "children": [
+                8
+            ]
+        },
+        {
+            "name": "Sun Light_$AssimpFbx$_PostRotation",
+            "matrix": [
+                1.0,
+                -0.0,
+                0.0,
+                -0.0,
+                -0.0,
+                -4.371138828673793e-8,
+                1.0,
+                0.0,
+                0.0,
+                -1.0,
+                -4.371138828673793e-8,
+                -0.0,
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+            ],
+            "children": [
+                9
+            ]
+        },
+        {
+            "name": "Sun Light"
+        },
+        {
+            "name": "Sky Light_$AssimpFbx$_PostRotation",
+            "matrix": [
+                1.0,
+                -0.0,
+                0.0,
+                -0.0,
+                -0.0,
+                -4.371138828673793e-8,
+                1.0,
+                0.0,
+                0.0,
+                -1.0,
+                -4.371138828673793e-8,
+                -0.0,
+                -0.0,
+                0.0,
+                -0.0,
+                1.0
+            ],
+            "children": [
+                11
+            ]
+        },
+        {
+            "name": "Sky Light"
+        },
+        {
+            "name": "Alduin Dragon_$AssimpFbx$_Translation",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                -227.80740356445313,
+                5.537300109863281,
+                1.0
+            ],
+            "children": [
+                13
+            ]
+        },
+        {
+            "name": "Alduin Dragon_$AssimpFbx$_RotationPivot",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                -283.82550048828127,
+                218.18930053710938,
+                0.0,
+                1.0
+            ],
+            "children": [
+                14
+            ]
+        },
+        {
+            "name": "Alduin Dragon_$AssimpFbx$_RotationPivotInverse",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                283.82550048828127,
+                -218.18930053710938,
+                -0.0,
+                1.0
+            ],
+            "children": [
+                15
+            ]
+        },
+        {
+            "name": "Alduin Dragon_$AssimpFbx$_ScalingPivot",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                -283.82550048828127,
+                218.18930053710938,
+                0.0,
+                1.0
+            ],
+            "children": [
+                16
+            ]
+        },
+        {
+            "name": "Alduin Dragon_$AssimpFbx$_ScalingPivotInverse",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                283.82550048828127,
+                -218.18930053710938,
+                -0.0,
+                1.0
+            ],
+            "children": [
+                17
+            ]
+        },
+        {
+            "name": "Alduin Dragon",
+            "mesh": 0
+        },
+        {
+            "name": "Null"
+        }
+    ],
+    "samplers": [
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "textures": [
+        {
+            "source": 0,
+            "sampler": 0
+        },
+        {
+            "source": 1,
+            "sampler": 1
+        }
+    ],
+    "scene": 0
+}
